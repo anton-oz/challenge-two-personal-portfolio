@@ -33,7 +33,7 @@ h1 {
     margin-top: var(--seperation);
     font-size: 3em;
     border: 15px solid black;
-    border-style: ridge;
+    border-style: double;
     border-radius: 100px;   
 }
 
@@ -43,13 +43,26 @@ a {
 }
 
 .img-nav {
+    width: 700px;
+    margin: 0 auto;
     display: flex;
     position: relative;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
+}
+
+.personalImg {
+    height: var(--imgSize);
+    width: var(--imgSize);
+    border: 1px solid black;
 }
 
 nav {
+    left: 500px;
+}
+
+nav ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -58,7 +71,7 @@ nav {
     margin-top: var(--seperation);
     padding: .5em;
     height: 2em;
-    width: 300px;
+    width: 20em;
 }
 
 nav a {
@@ -68,12 +81,6 @@ nav a {
     height: fit-content;
     padding: 0.25em;
     color: black;
+    font-size: 1.3em;
 }
 
-.personalImg {
-    height: var(--imgSize);
-    width: var(--imgSize);
-    border: 1px solid black;
-    margin: 0 auto;
-    margin-top: 1em;
-}
