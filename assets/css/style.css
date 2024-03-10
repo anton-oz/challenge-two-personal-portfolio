@@ -112,6 +112,7 @@ nav a {
 .subSection {
     display:flex;
     justify-content: center;
+    height: 740.39px;
 }
 
 .articleCenter {
@@ -132,6 +133,10 @@ nav a {
     background-color: var(--textBackgroundColor);
 }
 
+.subHeadingContainer {
+    min-width: 339.13px;
+}
+
  h2 {
     text-align: center;
     border: var(--borderThickness) solid var(--borderColor);
@@ -142,6 +147,7 @@ nav a {
     font-size: 4em;
     position: relative;
     margin: 100px auto;
+    margin-right: 0.5em;
     color: var(--textColor);
     background-color: var(--textBackgroundColor);
 }
@@ -149,6 +155,30 @@ nav a {
 p {
     color: var(--textColor);
     margin: 1.5em;
+}
+
+#workTilesContainer {
+    height: fit-content;
+    width: fit-content;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.workTile {
+    min-width: 200px;
+    min-height: 200px;
+    border: 1px solid white;
+    margin: 20px;
+}
+
+.workTile:hover {
+    background-color: #1778a5;
+    cursor: pointer;
 }
 
 footer {
