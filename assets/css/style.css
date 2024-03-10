@@ -194,6 +194,11 @@ nav a {
     margin-right: 0.5em;
     color: var(--textColor);
     background-color: var(--textBackgroundColor);
+    transition-duration: 0.38s;
+}
+
+h2:hover {
+    border-width: 0.1em;
 }
 
 .subNavBar {
@@ -215,6 +220,11 @@ nav a {
     background-color: var(--textBackgroundColor);
     color: var(--textColor);
     margin: 10px;
+    transition-duration: 0.38s;
+}
+
+.subNavBar li:hover {
+    border-width: 0.2em;
 }
 
 p {
