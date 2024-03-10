@@ -74,6 +74,10 @@ nav {
     left: 500px;
 }
 
+ul {
+    list-style: none;
+}
+
 nav ul {
     display: flex;
     align-items: center;
@@ -112,14 +116,16 @@ nav a {
 .subSection {
     display:flex;
     justify-content: center;
-    height: 740.39px;
+    margin: 20px auto;
 }
+
+
 
 .articleCenter {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 100px 10px;
+    margin: 40px 10px;
 }
 
 /* container for the current sections content */
@@ -152,9 +158,38 @@ nav a {
     background-color: var(--textBackgroundColor);
 }
 
+.subNavBar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 10%;
+    right: 7%;
+}
+
+.subNavBar li {
+    border: var(--borderThickness) solid var(--borderColor);
+    border-radius: var(--roundness);
+    width: fit-content;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0.5em;
+    background-color: var(--textBackgroundColor);
+    color: var(--textColor);
+    margin: 10px;
+}
+
+#aboutMe {
+    margin-bottom: 200px;
+}
+
 p {
     color: var(--textColor);
     margin: 1.5em;
+}
+
+#myWork {
+    margin: 0 auto;
 }
 
 #workTilesContainer {
@@ -171,6 +206,11 @@ p {
 
 h3 {
     color: var(--textColor);
+}
+
+#firstProject {
+    min-width: 600px;
+    min-height: 300px;
 }
 
 .workTile {
