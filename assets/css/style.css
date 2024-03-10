@@ -31,7 +31,7 @@ h1 {
     max-width: fit-content;
     padding: var(--seperation);
     margin-top: var(--seperation);
-    font-size: 3em;
+    font-size: 6em;
     border: 15px solid black;
     border-style: double;
     border-radius: 100px;   
@@ -45,6 +45,7 @@ a {
 .img-nav {
     width: 700px;
     margin: 0 auto;
+    margin-bottom: 80px;
     display: flex;
     position: relative;
     flex-direction: row;
@@ -70,8 +71,9 @@ nav ul {
     border-radius: var(--roundness);
     margin-top: var(--seperation);
     padding: .5em;
-    height: 2em;
+    height: 3em;
     width: 20em;
+    font-size: 1.3em;
 }
 
 nav a {
@@ -84,3 +86,44 @@ nav a {
     font-size: 1.3em;
 }
 
+#mainSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subSection {
+    display:flex;
+    justify-content: center;
+}
+
+.articleCenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px 10px;
+}
+
+.contentBox {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: var(--seperation);
+    width: 66%;
+}
+
+ h2 {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.2em;
+    font-size: 4em;
+    position: relative;
+    margin: 100px auto;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+}
