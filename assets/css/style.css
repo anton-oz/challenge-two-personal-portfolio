@@ -169,16 +169,25 @@ p {
     margin: 0 auto;
 }
 
+h3 {
+    color: var(--textColor);
+}
+
 .workTile {
-    min-width: 200px;
-    min-height: 200px;
+    min-width: 238.25px;
+    min-height: 238.25px;
     border: 1px solid white;
+    border-radius: var(--roundness);
     margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .workTile:hover {
     background-color: #1778a5;
     cursor: pointer;
+    border: 1px dotted white;
 }
 
 footer {
