@@ -71,7 +71,7 @@ a {
     flex-wrap: wrap;
     position: relative;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .personalImg {
@@ -139,6 +139,7 @@ nav a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     margin: 40px 10px;
 }
 
@@ -155,6 +156,10 @@ nav a {
 
 .subHeadingContainer {
     min-width: 339.13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
  h2 {
@@ -177,7 +182,7 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    bottom: 10%;
+    bottom: 6em;
     right: 7%;
 }
 
@@ -209,7 +214,6 @@ p {
 #workTilesContainer {
     height: fit-content;
     width: fit-content;
-    padding: 20px;
 }
 
 .row {
@@ -223,13 +227,13 @@ h3 {
 }
 
 #firstProject {
-    min-width: 600px;
-    min-height: 300px;
+    width: 25em;
+    height: 15em;
 }
 
 .workTile {
-    min-width: 238.25px;
-    min-height: 238.25px;
+    width: 15em;
+    height: 10em;
     border: 1px solid white;
     border-radius: var(--roundness);
     margin: 20px;
@@ -298,28 +302,52 @@ footer h3:hover {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     body {
-        font-size: 10px;
-    }  
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    body {
-        font-size: 13px;
+        font-size: 8px;
+    }
+    
+    .subNavBar {
+        display: none;
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
     body {
-        font-size: 14px;
-    }    
+        font-size: 8px;
+    }
+
+    .subNavBar {
+        display: none;
+    } 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    .subNavBar {
+        display: none;
+    } 
+
+    .articleCenter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 10px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 992px) {
     body {
-        font-size: 15px;
+        font-size: 14px;
     }    
 }
 
