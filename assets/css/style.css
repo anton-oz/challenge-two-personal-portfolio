@@ -124,13 +124,16 @@ nav a {
 #mainSection {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
+    width: auto;
+    margin: 0;
 }
 
 .subSection {
     display:flex;
     justify-content: center;
-    margin: 20px auto;
+    margin: auto;
 }
 
 
@@ -198,10 +201,6 @@ nav a {
     margin: 10px;
 }
 
-#aboutMe {
-    margin-bottom: 200px;
-}
-
 p {
     color: var(--textColor);
     margin: 1.5em;
@@ -227,12 +226,12 @@ h3 {
 }
 
 #firstProject {
-    width: 25em;
+    width: 23em;
     height: 15em;
 }
 
 .workTile {
-    width: 15em;
+    width: 13em;
     height: 10em;
     border: 1px solid white;
     border-radius: var(--roundness);
@@ -252,10 +251,12 @@ h3 {
 #aboutMeArticle {
     display: flex;
     position: relative;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     height: fit-content;
-    top: 140px;
+    width: fit-content;
+    padding: 1.3em;
 }
 
 #emailButton {
@@ -272,8 +273,6 @@ h3 {
     background-color:#1e95cd;
     cursor: pointer;
 }
-
-#emailButton
 
 footer {
     width: 100%;
