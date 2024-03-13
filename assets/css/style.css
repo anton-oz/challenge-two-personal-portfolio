@@ -121,8 +121,8 @@ nav ul li {
     display: flex;
     align-items: center;
     transition-duration: var(--transitionDuration);
-    border-radius: var(--roundness);
-    border: .1em solid var(--borderColor);
+    /* border-radius: var(--roundness);
+    border: .1em solid var(--borderColor); */
 }
     
 
@@ -136,6 +136,8 @@ nav ul li:hover {
 nav ul a {
     color: var(--textColor);
     background-color: #0b5679;
+    border-radius: var(--roundness);
+    border: .1em solid var(--borderColor)
 }
 
 nav a {
@@ -221,6 +223,7 @@ nav a {
 h2:hover {
     border-width: 0.1em;
 }
+
 
 /* text p styling for about me content */
 
