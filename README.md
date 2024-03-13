@@ -18,3 +18,5 @@ background img fit - https://www.w3schools.com/css/css3_object-fit.asp
 
 website screenshot - https://zapier.com/blog/full-page-screenshots-in-chrome/
 
+hover changes img - https://sirv.com/help/articles/hover-change-image/#:~:text=is%20explained%20below.-,Pure%20CSS%20to%20swap%20image%20on%20hover,and%20works%20on%20all%20browsers.
+
