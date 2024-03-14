@@ -161,21 +161,6 @@ Flexboxes inside of flexboxes to give the site auto reactivity when displaying o
 
 size screens, and when using :hover pseudo class.*/
 
-/* #mainSection {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    margin: 0;
-}
-
-.subSection {
-    display:flex;
-    justify-content: center;
-    margin: auto;
-} */
 
 /* flex container for subheading + section content */
 
