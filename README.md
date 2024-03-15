@@ -12,7 +12,7 @@ I made this website for potential employers to find information about me, my dev
 
 ## Installation
 
-[live site:](https://anton-oz.github.io/challenge-two-personal-portfolio/)
+[Live Site!](https://anton-oz.github.io/challenge-two-personal-portfolio/)
 
 Click the link to view my website!
 
